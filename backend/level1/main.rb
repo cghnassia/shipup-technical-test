@@ -1,4 +1,4 @@
-require_relative "./compute"
+require_relative "../compute"
 
-puts compute("./data/input.json")
+result = compute("./data/input.json")
 puts result.to_json
